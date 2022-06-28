@@ -2,10 +2,11 @@ title: Tarun Ramachandran # your name (or website title) here
 logo: "images/profile-pic.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <h3>About Me:</h3> <p>Hello, I'm Tarun and I'm an aspiring software developer.</p>  
-  <br><br>
+  <br>
   Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <br>
+  <a href="vhttps://www.linkedin.com/in/tarun-ramachandran-5096b0174/">View My LinkedIn Profile</a> 
+  <br>
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
