@@ -7,22 +7,21 @@
 I have the following projects:
 * Cab Booking System - CabsOnline
 * Software Article DB
-* 
 
 Add these projects later:
 * PHP Web Dev
 * UE4 RPG Game (needs to be worked on)
-* 
+* Flux Velocity
  -->
-[Project 1 Title](/sample_page)
+[Software Article Database App](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Cab Booking System](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Flux Velocity (Racing Game)](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
