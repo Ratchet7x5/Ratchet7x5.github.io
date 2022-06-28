@@ -1,9 +1,19 @@
 ## Portfolio
 
 ---
+<!-- Category 1 -->
+### Projects 
+<!-- todo(ratchet7x5): Decide overall project structure
+I have the following projects:
+* Cab Booking System - CabsOnline
+* Software Article DB
+* 
 
-### Category Name 1 
-
+Add these projects later:
+* PHP Web Dev
+* UE4 RPG Game (needs to be worked on)
+* 
+ -->
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
@@ -31,5 +41,5 @@
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:14px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
