@@ -10,8 +10,8 @@ I have the following projects:
 
 Add these projects later:
 * PHP Web Dev
-* UE4 RPG Game (needs to be worked on)
 * Flux Velocity
+* UE4 RPG Game (needs to be worked on)
  -->
 [Software Article Database App](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
