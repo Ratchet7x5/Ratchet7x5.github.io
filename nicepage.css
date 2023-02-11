@@ -2064,6 +2064,7 @@ section,
 header,
 footer {
   position: relative;
+  padding: 1px;
 }
 section > *,
 header > *,
@@ -36994,10 +36995,18 @@ a.u-link.u-text-hover-grey-90:hover {
 
  .u-footer {
   background-image: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  text-align: center;
+  min-height: 50px;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  bottom: 0px;
+  min-height: 50px;
 }
 
 .u-footer .u-text-1 {
