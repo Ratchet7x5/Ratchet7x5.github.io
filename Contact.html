@@ -139,11 +139,10 @@
         </div>
         <div>
           <!-- image links to Email with Subject -->
-          <a onclick="navigator.clipboard.writeText('tarun798088@gmail.com')" href="">
+          <a onclick="copyEmail()" href="">
             <img
               src="/images/732200.png"
               title="Click to copy my email address"
-              
             />
           </a>
           <!-- image links to LinkedIn -->
@@ -170,5 +169,13 @@
         </p>
       </div>
     </footer>
+
+    <script>
+      // copy email to clipboard
+      function copyEmail() {
+        navigator.clipboard.writeText("tarun798088@gmail.com");
+        alert("You have copied my email address!");
+      }
+    </script>
   </body>
 </html>
