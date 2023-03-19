@@ -36997,7 +36997,7 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: none;
   position: absolute;
   right: 0;
-  bottom: 0;
+  margin-top: 40px;
   left: 0;
   padding: 0rem;
   text-align: center;
