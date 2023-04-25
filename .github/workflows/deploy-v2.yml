@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './dist'
+          path: './ratchet7x5.github.io/dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
