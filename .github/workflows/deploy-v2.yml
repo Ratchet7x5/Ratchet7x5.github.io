@@ -39,6 +39,8 @@ jobs:
           node-version: 16
           cache: 'npm'
           cache-dependency-path: ratchet7x5.github.io/package-lock.json
+      - name: cd into package.json folder
+        run: cd .\ratchet7x5.github.io\
       - name: Install dependencies
         run: npm install
       - name: Build
