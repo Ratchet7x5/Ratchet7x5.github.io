@@ -38,6 +38,7 @@ jobs:
 
       - name: Install dependencies
         run: sudo npm install
+        working-directory: ./ratchet7x5.github.io
 
       - name: Build
         run: sudo npm run build
