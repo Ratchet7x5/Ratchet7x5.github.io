@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: 16.14
           cache: 'npm'
-          cache-dependency-path: './package-lock.json'
+          cache-dependency-path: './ratchet7x5.github.io/package-lock.json'
 
       - name: Install dependencies
         run: npm install
