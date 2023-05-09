@@ -1,14 +1,22 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
+import profpic from './assets/images/profile/480_No_BG.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App space-y-4">
       {/* div1 = About Me.  */}
-      <div>
-        <p>Hi, my name is Tarun Ramachandran. </p>
+      <div className=" bg-neutral-950">
+        <div className="mx-auto grid max-w-2xl items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
+          <div className="flex justify-center object-contain">
+            <img class="object-contain" src={profpic} alt="Tarun" />
+          </div>
+          <div class="p-4 sm:p-6">
+            <p class="mt-4 text-gray-300">Hi, my name is Tarun Ramachandran.</p>
+          </div>
+        </div>
       </div>
 
       {/* soon-to-be image component */}
