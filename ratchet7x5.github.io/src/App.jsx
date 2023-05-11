@@ -13,7 +13,7 @@ function App() {
           <div className="flex justify-center object-contain">
             <img class="object-contain rounded-full border-2 border-neutral-500" src={profpic} alt="Tarun" />
           </div>
-          <div class="">
+          <div class="font-montserrat">
             <p class="mt-4 text-gray-300">Hi, my name is Tarun Ramachandran.</p>
           </div>
         </div>
