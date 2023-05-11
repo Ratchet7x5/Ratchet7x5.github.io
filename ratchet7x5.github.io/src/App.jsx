@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import profpic from './assets/images/profile/480_No_BG.png';
 import './App.css';
 
@@ -13,7 +11,7 @@ function App() {
           <div className="flex justify-center object-contain">
             <img class="object-contain rounded-full border-2 border-neutral-500" src={profpic} alt="Tarun" />
           </div>
-          <div class="font-montserrat">
+          <div class="">
             <p class="mt-4 text-gray-300">Hi, my name is Tarun Ramachandran.</p>
           </div>
         </div>
