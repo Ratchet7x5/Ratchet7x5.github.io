@@ -7,10 +7,10 @@ function App() {
     <div className="App leading-tight font-sans-serif space-y-4">
       {/* div1 = About Me.  */}
       <div className=" rounded-lg bg-neutral-950">
-        <div className="mx-auto grid max-w-2xl items-center gap-x-6 gap-y-12 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-6xl lg:grid-cols-1 lg:px-8">
-          <div className="flex justify-center object-contain">
+        <div className="mx-auto grid max-w-2xl items-center gap-x-6 gap-y-12 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-4xl lg:grid-cols-1 lg:px-8">
+          <div className="flex justify-center justify-self-center">
             <img
-              class="rounded-full border-2 border-neutral-500 object-contain"
+              class="rounded-full border-2 border-neutral-500 object-contain h-5/6 w-5/6"
               src={profpic}
               alt="Tarun"
             />
