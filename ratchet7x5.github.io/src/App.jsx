@@ -4,12 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App leading-tight space-y-4 font-sans-serif">
+    <div className="App leading-tight font-sans-serif space-y-4">
       {/* div1 = About Me.  */}
       <div className=" rounded-lg bg-neutral-950">
         <div className="mx-auto grid max-w-2xl items-center gap-x-6 gap-y-12 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-6xl lg:grid-cols-1 lg:px-8">
           <div className="flex justify-center object-contain">
-            <img class="object-contain rounded-full border-2 border-neutral-500" src={profpic} alt="Tarun" />
+            <img
+              class="rounded-full border-2 border-neutral-500 object-contain"
+              src={profpic}
+              alt="Tarun"
+            />
           </div>
           <div class="">
             <p class="mt-4 text-gray-300">Hi, my name is Tarun Ramachandran.</p>
@@ -67,6 +71,9 @@ function App() {
       </div>
 
       {/* add footer here */}
+      <footer className="rounded-lg bg-neutral-950">
+        <p class="mt-4 text-gray-300">&copy; Tarun Ramachandran.</p>
+      </footer>
     </div>
   );
 }
