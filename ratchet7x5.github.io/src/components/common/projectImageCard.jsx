@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function projectImageCard() {
   return (
-    <div className="rounded-lg bg-neutral-950" id="projects">
+    <div className="rounded-lg bg-neutral-950 " id="projects">
       <div className="mx-auto grid max-w-2xl items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div className="gap-4 sm:gap-6">
           <img
@@ -12,7 +12,7 @@ export default function projectImageCard() {
           />
         </div>
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+          <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
             Technical Specifications
           </h2>
           <p className="mt-4 text-gray-300">
