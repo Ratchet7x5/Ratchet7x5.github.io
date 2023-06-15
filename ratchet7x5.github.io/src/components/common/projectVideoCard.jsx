@@ -11,7 +11,7 @@ export default function projectVideoCard() {
           />
         </div>
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">
+          <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl">
             Technical Specifications
           </h2>
           <p className="mt-4 text-gray-300">
