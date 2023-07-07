@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import profpic from './assets/images/profile/480_No_BG.png';
+import dgapppic from './assets/images/projects/dgapp/NDA.png';
 import './App.css';
+import ProjectImageCard from './components/common/projectImageCard';
 
 function App() {
   return (
@@ -25,9 +27,7 @@ function App() {
 
       <div className="rounded-lg bg-neutral-950 " id="projects">
         <div className="mx-auto items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-          <div className="gap-1 sm:gap-6">
-            
-          </div>
+          <div className="gap-1 sm:gap-6"></div>
           <div>
             <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
               Currently a work in progress
@@ -38,7 +38,21 @@ function App() {
 
       {/* soon-to-be video component */}
 
-      
+      <ProjectImageCard
+        image={dgapppic}
+        projectTitle={'Dangerous Goods Project'}
+        //escape characters won't work in JSX. So split the lines into multiple props or implement another solution.
+        // see here: https://stackoverflow.com/questions/67616946/line-break-react-prop
+        // and here: https://stackoverflow.com/questions/54197364/react-text-prop-linebreak?rq=3
+        projectDescription={
+          <text>
+            This is where I describe all the things I did in this project.
+            <br />
+            &bull; Is this line underneath the one above?
+            
+          </text>
+        }
+      />
 
       {/* add footer here */}
       <footer className="rounded-lg bg-neutral-950">
