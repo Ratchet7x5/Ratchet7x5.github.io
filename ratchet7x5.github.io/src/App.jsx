@@ -18,7 +18,11 @@ function App() {
             />
           </div>
           <div class="">
-            <p class="mt-4 text-gray-300">Hi, my name is Tarun Ramachandran.</p>
+            <p class="mt-4 text-gray-300">
+              Hello, my name is Tarun Ramachandran. I'm a recent graduate from AUT
+              and I'm currently on the hunt for a backend software development
+              role.
+            </p>
           </div>
         </div>
       </div>
@@ -30,7 +34,7 @@ function App() {
           <div className="gap-1 sm:gap-6"></div>
           <div>
             <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
-              Currently a work in progress
+              Currently a work in progress. More projects will be added over time. 
             </h2>
           </div>
         </div>
@@ -44,12 +48,21 @@ function App() {
         //escape characters won't work in JSX. So split the lines into multiple props or implement another solution.
         // see here: https://stackoverflow.com/questions/67616946/line-break-react-prop
         // and here: https://stackoverflow.com/questions/54197364/react-text-prop-linebreak?rq=3
+        // bullet point: &bull;
         projectDescription={
           <text>
-            This is where I describe all the things I did in this project.
+            During my final year of my BCIS degree at AUT, I undertook the
+            Dangerous Goods Project, which was part of my Research and
+            Development programme that all BCIS students must undertake before
+            they are allowed to graduate.
             <br />
-            &bull; Is this line underneath the one above?
-            
+            <br />
+            The project involved enhancing a prototype made by the previous R&D
+            team of this project, as we were tasked with enhancing their
+            segregation algorithm.
+            <br />
+            <br />
+            &bull; Bullet point 1
           </text>
         }
       />

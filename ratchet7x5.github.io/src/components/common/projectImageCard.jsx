@@ -14,11 +14,11 @@ export default function ProjectImageCard(props) {
         </div>
         <div>
           {/* Project Name */}
-          <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
+          <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl text-left">
             {props.projectTitle}
           </h2>
           {/* Project Accomplishments */}
-          <p className="mt-4 text-gray-300">{props.projectDescription}</p>
+          <p className="mt-4 text-gray-300 text-left">{props.projectDescription}</p>
         </div>
       </div>
     </div>
