@@ -35,8 +35,7 @@ function App() {
           <div className="gap-1 sm:gap-6"></div>
           <div>
             <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
-              Currently a work in progress. More projects will be added over
-              time.
+              Notice: Projects are being added over time. 
             </h2>
           </div>
         </div>
@@ -86,7 +85,7 @@ function App() {
             mentor.
             <br />
             <br />
-            Now, let's highlight some of the work I did on this project:
+            As the backend and deployment developer, let's highlight some of the work I did on this project:
             <br />
             <br />
             &bull; Interviewed mentors and mentees to gather motivation to using
@@ -129,9 +128,19 @@ function App() {
             features:
             <br />
             &bull; Improved UI: Our team reworked the previous team's UI to make
-            it easier to understand what the user must do at each screen. &bull;
-            Improved UI: Our team reworked the previous team's UI to make it
-            easier to understand what the user must do at each screen.
+            it easier to understand what the user must do at each screen.
+            <br />
+            &bull; Packaging Group conflict detection: If there any packing
+            group violations, the app will detect it and prompt the user to
+            remove the conflicting good.
+            <br />
+            &bull; Segregation Validator: A simple algorithm that checks for any
+            incompatible dangerous goods in the loading plan.
+            <br />
+            &bull; Automatic Segregator & drag and drop goods: A back-tracking
+            algorithm that will automatically sort dangerous goods and display a
+            loading plan for the user. Users may also swap the dangerous goods
+            around and manually check for incompatiblilties.
           </text>
         }
       />
