@@ -1,6 +1,3 @@
-> **Note**: This repo is no longer officially maintained as of Jan, 2023.
-> Feel free to use it, fork it and patch it for your own needs.
-
 ## About
 
 This repository holds the source code for my portfolio website. You can see a hosted version of this website <a href="https://www.tarunr.com" target="_blank">here</a>.
