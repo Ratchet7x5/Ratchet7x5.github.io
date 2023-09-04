@@ -21,28 +21,14 @@ function App() {
           </div>
           <div class="">
             <p class="mt-4 text-gray-300">
-              Hello, my name is Tarun Ramachandran. I'm a recent graduate from
-              AUT and I'm currently on the hunt for a backend software
-              development role.
+              Hello, my name is Tarun Ramachandran and welcome to my portfolio
+              website where I showcase some of my projects. I'm a recent
+              graduate from AUT and I'm currently on the hunt for a backend
+              software development role.
             </p>
           </div>
         </div>
       </div>
-
-      {/* soon-to-be image component */}
-
-      <div className="rounded-lg bg-neutral-950 " id="projects">
-        <div className="mx-auto items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-          <div className="gap-1 sm:gap-6"></div>
-          <div>
-            <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
-              Notice: Projects are being added over time.
-            </h2>
-          </div>
-        </div>
-      </div>
-
-      {/* soon-to-be video component */}
 
       <ProjectImageCard
         image={quirkymentors}
@@ -167,7 +153,8 @@ function App() {
             &bull; Achieved over 6500+ downloads and 3200+ subscribers in the
             last 3 months.
             <br />
-            &bull; Used C# to write a CLI program that edits the files automatically when run.
+            &bull; Used C# to write a CLI program that edits the files
+            automatically when run.
           </text>
         }
       />
@@ -185,29 +172,38 @@ function App() {
             During my final year of my BCIS degree at AUT, I undertook the
             Dangerous Goods Project, which was part of my Research and
             Development programme that all BCIS students must undertake before
-            they are allowed to graduate.
+            they are allowed to graduate. The Dangerous Goods Project is
+            essentially a mobile app built by a previous R&D student team that
+            created a prototype to detect incorrect sorting issues within a
+            driver's loading plan.
             <br />
             <br />
             The project involved enhancing a prototype made by the previous R&D
             team of this project, as we were tasked with enhancing their
-            segregation algorithm. However, due to a poorly organized codebase
-            our team simply re-wrote the app from scratch. We added new
-            features:
+            segregation algorithm. However, due to the codebase's poor
+            organization and lack of documentation our team simply re-wrote the
+            app from scratch.
             <br />
-            &bull; Improved UI: Our team reworked the previous team's UI to make
-            it easier to understand what the user must do at each screen.
             <br />
-            &bull; Packaging Group conflict detection: If there any packing
+            Our team added new features which include:
+            <br />
+            &bull; Improved UI: Our team created a new UI based the previous
+            team's UI to make it easier to understand what the user must do at
+            each screen.
+            <br />
+            &bull; Packaging Group Conflict Detection: If there any packing
             group violations, the app will detect it and prompt the user to
             remove the conflicting good.
             <br />
             &bull; Segregation Validator: A simple algorithm that checks for any
             incompatible dangerous goods in the loading plan.
             <br />
-            &bull; Automatic Segregator & drag and drop goods: A back-tracking
-            algorithm that will automatically sort dangerous goods and display a
-            loading plan for the user. Users may also swap the dangerous goods
-            around and manually check for incompatiblilties.
+            &bull; Automatic Segregator: A back-tracking algorithm that will
+            automatically sort dangerous goods and display a loading plan for
+            the user. Users may also swap the dangerous goods around and
+            manually check for incompatiblilties. This feature also allows users
+            to drag and drop their DG around so they can change the positions of
+            any DG and verify the validity of their loading plan.
           </text>
         }
       />
