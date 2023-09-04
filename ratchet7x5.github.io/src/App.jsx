@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import './App.css';
 import profpic from './assets/images/profile/480_No_BG.png';
 import dgapppic from './assets/images/projects/dgapp/NDA.png';
 import quirkymentors from './assets/images/projects/quirky-mentors/mentors.png';
-import './App.css';
+import drgmod from './assets/images/projects/drg/EBMV2.png';
 import ProjectImageCard from './components/common/projectImageCard';
 
 function App() {
@@ -20,28 +21,14 @@ function App() {
           </div>
           <div class="">
             <p class="mt-4 text-gray-300">
-              Hello, my name is Tarun Ramachandran. I'm a recent graduate from
-              AUT and I'm currently on the hunt for a backend software
-              development role.
+              Hello, my name is Tarun Ramachandran and welcome to my portfolio
+              website where I showcase some of my projects. I'm a recent
+              graduate from AUT and I'm currently on the hunt for a backend
+              software development role.
             </p>
           </div>
         </div>
       </div>
-
-      {/* soon-to-be image component */}
-
-      <div className="rounded-lg bg-neutral-950 " id="projects">
-        <div className="mx-auto items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-          <div className="gap-1 sm:gap-6"></div>
-          <div>
-            <h2 className="font-bold text-3xl tracking-tight text-gray-300 sm:text-4xl ">
-              Notice: Projects are being added over time. 
-            </h2>
-          </div>
-        </div>
-      </div>
-
-      {/* soon-to-be video component */}
 
       <ProjectImageCard
         image={quirkymentors}
@@ -53,7 +40,11 @@ function App() {
         projectDescription={
           <text>
             Live Demo:{' '}
-            <a href="https://quirky-mentors.vercel.app/" target="_blank">
+            <a
+              href="https://quirky-mentors.vercel.app/"
+              target="_blank"
+              className="text-blue-400"
+            >
               Click here
             </a>
             <br />
@@ -85,7 +76,8 @@ function App() {
             mentor.
             <br />
             <br />
-            As the backend and deployment developer, let's highlight some of the work I did on this project:
+            As the backend and deployment developer, let's highlight some of the
+            work I did on this project:
             <br />
             <br />
             &bull; Interviewed mentors and mentees to gather motivation to using
@@ -106,6 +98,68 @@ function App() {
       />
 
       <ProjectImageCard
+        image={drgmod}
+        projectTitle={'Even Better Mining - Deep Rock Galactic'}
+        projectDescription={
+          <text>
+            Live Project:{' '}
+            <a
+              href="https://mod.io/g/drg/m/even-better-mining-v2"
+              target="_blank"
+              className="text-blue-400"
+            >
+              Click here
+            </a>
+            <br />
+            <br />
+            Since November 2022, a popular mod by the name "Better Digging"
+            stopped working for over 12,000 users on the game "Deep Rock
+            Galactic" (DRG). DRG is essentially a game where you go to multiple
+            planets and mine for minerals while fighting off the local wildlife.
+            Mining usually takes a while, as you need to hit your pickaxe
+            against the overall terrain about 2 or 3 times. This mod lets you
+            hit it once, which the previous Better Digging mod did. However, the
+            owner of the mod hasn't updated the mod in over 300 days. So I took
+            it upon myself to make an exact clone of this mod that worked.
+            <br />
+            <br />
+            So during June-July 2023, I made this mod by editing over 153 files
+            which was tedious and took over an hour, then play test the game to
+            see if the mod worked (and it did!). After a major update to the
+            game nearly 3 weeks later the mod broke, and we arrived at the same
+            issue - spending an hour to get the mod back up working fine. This
+            mod would break after each major update to the game which
+            essentially means that every time the game gets a major update
+            (every 3 months), I would have to spend an hour or so to make this
+            mod, then test it in game to see if it works. Then launch the game.
+            Then load up a level. Then... well check if it works or not.
+            <br />
+            <br />
+            I then realized, I can just automate this process of opening the
+            files, editing the values, then saving the file. To accomplish this
+            I used a library called UAssetAPI which can open all the texture
+            files and edit the value "HitsNeededToMine" to 1. After looking at
+            some non-existent documentation and the somewhat well documented
+            test-cases, I managed to get a CLI app running using C# to edit out
+            all the files. The best part? It only took about 2 minutes for the
+            CLI app to edit over 150+ files.
+            <br />
+            <br />
+            Some highlights:
+            <br />
+            &bull; Integrated UAssetAPI to edit 150+ texture files to improve
+            mod creating time by 95%.
+            <br />
+            &bull; Achieved over 6500+ downloads and 3200+ subscribers in the
+            last 3 months.
+            <br />
+            &bull; Used C# to write a CLI program that edits the files
+            automatically when run.
+          </text>
+        }
+      />
+
+      <ProjectImageCard
         image={dgapppic}
         projectTitle={'Dangerous Goods Project'}
         // worked on: backend, API requests, created a false data set based on real linkedin profile data, deployed the app,
@@ -118,29 +172,38 @@ function App() {
             During my final year of my BCIS degree at AUT, I undertook the
             Dangerous Goods Project, which was part of my Research and
             Development programme that all BCIS students must undertake before
-            they are allowed to graduate.
+            they are allowed to graduate. The Dangerous Goods Project is
+            essentially a mobile app built by a previous R&D student team that
+            created a prototype to detect incorrect sorting issues within a
+            driver's loading plan.
             <br />
             <br />
             The project involved enhancing a prototype made by the previous R&D
             team of this project, as we were tasked with enhancing their
-            segregation algorithm. However, due to a poorly organized codebase
-            our team simply re-wrote the app from scratch. We added new
-            features:
+            segregation algorithm. However, due to the codebase's poor
+            organization and lack of documentation our team simply re-wrote the
+            app from scratch.
             <br />
-            &bull; Improved UI: Our team reworked the previous team's UI to make
-            it easier to understand what the user must do at each screen.
             <br />
-            &bull; Packaging Group conflict detection: If there any packing
+            Our team added new features which include:
+            <br />
+            &bull; Improved UI: Our team created a new UI based the previous
+            team's UI to make it easier to understand what the user must do at
+            each screen.
+            <br />
+            &bull; Packaging Group Conflict Detection: If there any packing
             group violations, the app will detect it and prompt the user to
             remove the conflicting good.
             <br />
             &bull; Segregation Validator: A simple algorithm that checks for any
             incompatible dangerous goods in the loading plan.
             <br />
-            &bull; Automatic Segregator & drag and drop goods: A back-tracking
-            algorithm that will automatically sort dangerous goods and display a
-            loading plan for the user. Users may also swap the dangerous goods
-            around and manually check for incompatiblilties.
+            &bull; Automatic Segregator: A back-tracking algorithm that will
+            automatically sort dangerous goods and display a loading plan for
+            the user. Users may also swap the dangerous goods around and
+            manually check for incompatiblilties. This feature also allows users
+            to drag and drop their DG around so they can change the positions of
+            any DG and verify the validity of their loading plan.
           </text>
         }
       />
