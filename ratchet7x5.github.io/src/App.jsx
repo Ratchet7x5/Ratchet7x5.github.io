@@ -4,6 +4,7 @@ import profpic from './assets/images/profile/480_No_BG.png';
 import dgapppic from './assets/images/projects/dgapp/NDA.png';
 import quirkymentors from './assets/images/projects/quirky-mentors/mentors.png';
 import drgmod from './assets/images/projects/drg/EBMV2.png';
+import auis_homepage from './assets/images/projects/auis/auis_homepage.png';
 import ProjectImageCard from './components/common/projectImageCard';
 
 function App() {
@@ -22,13 +23,60 @@ function App() {
           <div class="">
             <p class="mt-4 text-gray-300">
               Hello, my name is Tarun Ramachandran and welcome to my portfolio
-              website where I showcase some of my projects. I'm a recent
-              graduate from AUT and I'm currently on the hunt for a backend
-              software development role.
+              website where I showcase some of my projects. Currently a Masters
+              student at UoA, and an AUT graduate in Computer Science. Currently
+              on the hunt for a part-time or full-time intern/graduate backend
+              role.
             </p>
           </div>
         </div>
       </div>
+
+      <ProjectImageCard
+        image={auis_homepage}
+        projectTitle={'AUIS Club App'}
+        //escape characters won't work in JSX. So split the lines into multiple props or implement another solution.
+        // see here: https://stackoverflow.com/questions/67616946/line-break-react-prop
+        // and here: https://stackoverflow.com/questions/54197364/react-text-prop-linebreak?rq=3
+        // bullet point: &bull;
+        projectDescription={
+          <text>
+            Live Demo:{' '}
+            <a
+              href="https://quirky-mentors.vercel.app/"
+              target="_blank"
+              className="text-blue-400"
+            >
+              Click here
+            </a>
+            <br />
+            <br />
+            Currently heads down working on the backend for the AUIS Club App.
+            The main business problem that AUIS currently faces is that all
+            memberships and event tickets sold are tracked via spreadsheets,
+            email, and bank transfers.
+            <br />
+            <br />
+            The goal of this project is to create an all-in-one web app where
+            club executives can create events, sell tickets, and manage the
+            members of their club.
+            <br />
+            <br />
+            As the backend developer, let's highlight some of the work I did on
+            this project:
+            <br />
+            <br />
+            &bull; Integrated the Stripe payment gateway to handle the sale of
+            tickets and memberships.
+            <br />
+            &bull; Migrated the database schema from MongoDB to PostgreSQL.
+            <br />
+            &bull; Created a custom Strapi plugin to handle event creation,
+            ticketing, manage Stripe products and prices, and manage users.
+            <br />
+          </text>
+        }
+      />
 
       <ProjectImageCard
         image={quirkymentors}
