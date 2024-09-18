@@ -41,16 +41,16 @@ function App() {
         // bullet point: &bull;
         projectDescription={
           <text>
-            Live Demo:{' '}
+            {/* Live Demo:{' '}
             <a
               href="https://quirky-mentors.vercel.app/"
               target="_blank"
               className="text-blue-400"
             >
               Click here
-            </a>
+            </a> 
             <br />
-            <br />
+            <br />*/}
             Currently heads down working on the backend for the AUIS Club App.
             The main business problem that AUIS currently faces is that all
             memberships and event tickets sold are tracked via spreadsheets,
