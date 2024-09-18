@@ -51,10 +51,10 @@ function App() {
             </a> 
             <br />
             <br />*/}
-            Currently heads down working on the backend for the AUIS Club App.
-            The main business problem that AUIS currently faces is that all
-            memberships and event tickets sold are tracked via spreadsheets,
-            email, and bank transfers.
+            Currently heads down working on the backend and some deployment
+            issues for the AUIS Club App. The main business problem that AUIS
+            currently faces is that all memberships and event tickets sold are
+            tracked via spreadsheets, email, and bank transfers.
             <br />
             <br />
             The goal of this project is to create an all-in-one web app where
