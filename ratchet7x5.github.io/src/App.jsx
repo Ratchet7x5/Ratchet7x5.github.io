@@ -66,16 +66,16 @@ function App() {
             <br />
             This adminstrator nightmare is why the club has requested the Web
             Dev Consulting Club (WDCC) to create an app that can help solve this
-            problem. And you can probably guess that I'm also a part of the team
-            of developers who will be working on this project. I'm the main
-            backend developer in charge of handling payments and ticketing. So
-            I'll also be in charge of setting up the schemas for the database
-            and any other backend code.
+            problem. The goal of this project will be to create an all-in-one
+            web app where club adminstrators can create and manage events, sell
+            tickets, and manage the members of their club.
             <br />
             <br />
-            The goal of this project will be to create an all-in-one web app
-            where club adminstrators can create and manage events, sell tickets,
-            and manage the members of their club.
+            And you can probably guess that I'm also a part of the team of
+            developers who will be working on this project. I'm the main backend
+            developer in charge of handling payments and ticketing. So I'll also
+            be in charge of setting up the schemas for the database and any
+            other backend code.
             <br />
             <br />
             As the backend developer, let's highlight some of the work I did on
