@@ -51,14 +51,23 @@ function App() {
             <br />
             <br />*/}
             Currently heads down working on the backend and some deployment
-            issues for the AUIS Club App. The main business problem that AUIS
-            currently faces is that all memberships and event tickets sold are
-            tracked via spreadsheets, email, and bank transfers.
+            issues for the AUIS Club App.
             <br />
             <br />
-            The goal of this project is to create an all-in-one web app where
-            club executives can create events, sell tickets, and manage the
-            members of their club.
+            The main business problem that AUIS currently faces is that all
+            memberships and event tickets sold are tracked via forms,
+            spreadsheets, email, and bank transfers. Managing over 500 members
+            through this method is quite cumbersome and an extremely slow
+            process. This is especially frustrating for the admins of the club
+            as they have to constantly follow up with members to ensure that
+            payments went through, the accuracy of the number of tickets sold,
+            and more. This adminstrator nightmare is why the club has requested
+            the Web Dev Consulting Club (WDCC)
+            <br />
+            <br />
+            The goal of this project will be to create an all-in-one web app
+            where club adminstrators can create and manage events, sell tickets,
+            and manage the members of their club.
             <br />
             <br />
             As the backend developer, let's highlight some of the work I did on
