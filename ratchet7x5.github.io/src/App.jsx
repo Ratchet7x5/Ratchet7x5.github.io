@@ -16,7 +16,7 @@ function App() {
           <div className="flex justify-center justify-self-center">
             <img
               class="h-5/6 w-5/6 rounded-full border-2 border-neutral-500 object-contain"
-              src={profpic}
+              //src={profpic}
               alt="Tarun"
             />
           </div>
