@@ -40,16 +40,16 @@ function App() {
         // bullet point: &bull;
         projectDescription={
           <text>
-            {/* Live Demo:{' '}
+            Live Demo:{' '}
             <a
-              href="https://quirky-mentors.vercel.app/"
+              href="https://auis.co.nz"
               target="_blank"
               className="text-blue-400"
             >
               Click here
-            </a> 
+            </a>
             <br />
-            <br />*/}
+            <br />
             Currently heads down working on the backend and some deployment
             issues for the AUIS Club App.
             <br />
@@ -214,8 +214,8 @@ function App() {
             &bull; Integrated UAssetAPI to edit 150+ texture files to improve
             mod creating time by 95%.
             <br />
-            &bull; Achieved over 6500+ downloads and 3200+ subscribers in the
-            last 3 months.
+            &bull; Achieved over 35,500+ downloads and 10,000+ subscribers in
+            the last 12 months.
             <br />
             &bull; Used C# to write a CLI program that edits the files
             automatically when run.
