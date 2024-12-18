@@ -14,11 +14,11 @@ function App() {
       <div className=" rounded-lg bg-neutral-950">
         <div className="mx-auto grid max-w-2xl items-center gap-x-6 gap-y-12 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-4xl lg:grid-cols-1 lg:px-8">
           <div className="flex justify-center justify-self-center">
-            <img
+            {/*<img
               class="h-5/6 w-5/6 rounded-full border-2 border-neutral-500 object-contain"
-              //src={profpic}
+              src={profpic}
               alt="Tarun"
-            />
+            />*/}
           </div>
           <div class="">
             <p class="mt-4 text-gray-300">
