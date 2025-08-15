@@ -23,9 +23,10 @@ function App() {
           <div class="">
             <p class="mt-4 text-gray-300">
               Hello, my name is Tarun Ramachandran and welcome to my portfolio
-              website where I showcase some of my projects. Currently a Masters
-              student at UoA, and an AUT graduate in Computer Science. On the
-              hunt for a part-time or full-time intern/graduate backend role!
+              website where I showcase some of my projects. Currently an
+              Artificial Intelligence Masters student at UNSW, and an AUT
+              graduate in Computer Science. Currently looking to apply for any
+              computer science related role!
             </p>
           </div>
         </div>
