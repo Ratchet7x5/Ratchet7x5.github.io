@@ -51,13 +51,17 @@ function App() {
             </a>
             <br />
             <br />
-            Currently heads down working on the backend and some deployment
-            issues for the AUIS Club App.
+            Project was finished on May 2025, and handed over to the latest AUIS 
+            Exec Team on 23rd January 2026. Between May 2025 and Jan 2026, the 
+            project has been in "maintenance" mode where no new features were
+            pushed, but we've kept a close eye on the health of the deployment.
+            There were no new bugs discovered during this phase which was quite
+            exciting for us.
             <br />
             <br />
             The main business problem that AUIS currently faces is that all
             memberships and event tickets sold are tracked via forms,
-            spreadsheets, email, and bank transfers. Managing over 500 members
+            spreadsheets, emails, and bank transfers. Managing over 500 members
             through this method is quite cumbersome and an extremely slow
             process. This is especially frustrating for the admins of the club
             as they have to constantly follow up with members to ensure that
@@ -69,7 +73,7 @@ function App() {
             Dev Consulting Club (WDCC) to create an app that can help solve this
             problem. The goal of this project will be to create an all-in-one
             web app where club adminstrators can create and manage events, sell
-            tickets, and manage the members of their club.
+            tickets, and manage club members.
             <br />
             <br />
             And you can probably guess that I'm also a part of the team of
@@ -83,13 +87,17 @@ function App() {
             this project:
             <br />
             <br />
-            &bull; Integrated the Stripe payment gateway to handle the sale of
-            tickets and memberships.
+            &bull; Implemented Stripe Payments using JavaScript to handle real-time 
+            payment processing, reducing manual reconciliation time from weeks to instant updates.
             <br />
             &bull; Migrated the database schema from MongoDB to PostgreSQL.
             <br />
             &bull; Created a custom Strapi plugin to handle event creation,
             ticketing, manage Stripe products and prices, and manage users.
+            <br />
+            &bull; Implemented SuperTokens to handle user roles, and authentication.
+            <br />
+            &bull; Implemented email confirmation
             <br />
           </text>
         }
