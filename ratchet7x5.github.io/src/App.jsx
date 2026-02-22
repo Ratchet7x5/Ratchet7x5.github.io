@@ -224,7 +224,7 @@ function App() {
             &bull; Integrated UAssetAPI to edit 150+ texture files to improve
             mod creating time by 95%.
             <br />
-            &bull; Achieved over 35,500+ downloads and 10,000+ subscribers in
+            &bull; Achieved over 65,500+ downloads and 12,000+ subscribers in
             the last 12 months.
             <br />
             &bull; Used C# to write a CLI program that edits the files
