@@ -97,7 +97,8 @@ function App() {
             <br />
             &bull; Implemented SuperTokens to handle user roles, and authentication.
             <br />
-            &bull; Implemented email confirmation
+            &bull; Implemented ticket emails that came with a QR Code that would be 
+            scanned by staff upon arrival to gain entry to events
             <br />
           </text>
         }
@@ -235,7 +236,7 @@ function App() {
       <ProjectImageCard
         image={dgapppic}
         projectTitle={'Dangerous Goods Project'}
-        // worked on: backend, API requests, created a false data set based on real linkedin profile data, deployed the app,
+        // worked on: backend, API requests, created a synthetic data set based on real linkedin profile data, deployed the app,
         projectDescription={
           <text>
             Note: Due to a Non-Disclosure Agreement, I'm not permitted to share
@@ -283,7 +284,7 @@ function App() {
 
       {/* add footer here */}
       <footer className="rounded-lg bg-neutral-950">
-        <p class="mt-4 text-gray-300">&copy; Tarun Ramachandran.</p>
+        <p class="mt-4 text-gray-300">&copy; Tarun Ramachandran 2026</p>
       </footer>
     </div>
   );
