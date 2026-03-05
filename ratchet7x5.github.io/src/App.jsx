@@ -22,11 +22,10 @@ function App() {
           </div>
           <div class="">
             <p class="mt-4 text-gray-300">
-              Hello, my name is Tarun Ramachandran and welcome to my portfolio
-              website where I showcase some of my projects. Currently an
-              Artificial Intelligence Masters student at UNSW, and an AUT
-              graduate in Computer Science. Currently looking to apply for any
-              backend roles or AI roles!
+              Hello, I'm Tarun Ramachandran and welcome to my portfolio
+              website where I showcase some of my projects. Currently 
+              pursuing my Masters in Artificial Intelligence at UNSW. 
+              Currently looking to apply for any backend roles or AI roles!
             </p>
           </div>
         </div>
