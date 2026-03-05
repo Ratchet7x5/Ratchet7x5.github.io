@@ -26,7 +26,7 @@ function App() {
               website where I showcase some of my projects. Currently an
               Artificial Intelligence Masters student at UNSW, and an AUT
               graduate in Computer Science. Currently looking to apply for any
-              computer science related role!
+              backend roles or AI roles!
             </p>
           </div>
         </div>
